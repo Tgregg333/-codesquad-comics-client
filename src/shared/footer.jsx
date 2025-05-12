@@ -1,9 +1,8 @@
 function Footer() {
-    return (
+  return (
+    <div>
       <div>
-        <Footer>
-        <div>
-        <h3 class="text-color-white">VISIT US</h3>
+        <h3 className="text-color-white">VISIT US</h3>
         <p>CodeSquad Comics</p>
         <p>123 Dorchester Avenue</p>
         <p>Boston, MA 02124</p>
@@ -11,9 +10,15 @@ function Footer() {
 
       <div>
         <h3>LINKS</h3>
-        <p><a href="index.html">#</a></p>
-        <p><a href="about.html">#</a></p>
-        <p><a href="login.html">#</a></p>
+        <p>
+          <a href="index.html">#</a>
+        </p>
+        <p>
+          <a href="about.html">#</a>
+        </p>
+        <p>
+          <a href="login.html">#</a>
+        </p>
       </div>
 
       <div>
@@ -33,8 +38,8 @@ function Footer() {
           />
         </a>
       </div>
-        </Footer>
-      </div>
-    )
-  }
-  
+    </div>
+  );
+}
+
+export default Footer;

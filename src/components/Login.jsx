@@ -1,10 +1,12 @@
-import React from "react";
 
-function Login({user,setUser}) => {
+
+function Login({user,setUser}) {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Method has ran");
     const form = e.target;
+
+    const form = e.target
 
     console.log("email");
     console.log("password");
@@ -23,7 +25,7 @@ function Login({user,setUser}) => {
         </div>
         <br />
         <div>
-          <label htmlFor="paswword">Password</label>
+          <label htmlFor="password">Password</label>
           <input
             type="password"
             name="password"
